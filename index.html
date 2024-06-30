@@ -6,8 +6,10 @@
     <title>My Travel Blog</title>
     <link rel="shortcut icon" href="img/food.jpg">
     <style>
-        .register{
-            border display: block;
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
     </style>
@@ -56,17 +58,16 @@
 <form>
 <div class="register">
     <h1>Register</h1>
-    <p>kindly fill in this form to register</p>
+    <p>kindly fill in this form to register</p><br>
     <label>Username</label><br>
-    <input type="text" placeholder="Enter Username">
-    <br>
+    <input type="text" placeholder="Enter Username"><br>
     <label>Email</label><br>
     <input type="email" placeholder="Enter Email"><br>
     <label>Password</label><br>
     <input type="password" placeholder="Enter Password"><br>
     <label>Repeat Password</label><br>
-    <input type="password" placeholder="Repeat Password">
-    <button>Register</button>
+    <input type="password" placeholder="Repeat Password"><br>
+    <button type="submit">Register</button>
 
 </div>
 <div>
